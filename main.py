@@ -1,6 +1,3 @@
-from dotenv import load_dotenv
-load_dotenv()
-
 from __future__ import unicode_literals
 from keep_alive import keep_alive
 import sys
@@ -22,6 +19,11 @@ from io import BytesIO
 from datetime import date
 from pytz import timezone
 from datetime import datetime
+
+from dotenv import load_dotenv
+load_dotenv()
+
+
 ######### OTHERs ########
 ID = "id"
 NAME = "name"
