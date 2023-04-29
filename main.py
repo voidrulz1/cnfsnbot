@@ -12,7 +12,6 @@ import random
 import requests
 from urllib.parse import urlencode
 from requests_toolbelt.multipart.encoder import MultipartEncoder
-import json
 
 import base64
 import textwrap
