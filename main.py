@@ -64,12 +64,10 @@ HANDLER_ROOM_ADMIN = "room_admin"
 ########## ------- ##########
 
 ######### CREDENTIALS AND ROOM SETTINGS - CHANGE THIS #########
-BOT_MASTER_ID =  os.getenv('BOT_MASTER')
-GROUP_TO_INIT_JOIN = "friends"
+GROUP_TO_INIT_JOIN = os.getenv('GROUP_TO_INIT_JOIN')
 BOT_ID = os.getenv('BOT_ID')
-BOT_MASTER = os.getenv('BOT_MASTER')
 BOT_PWD = os.getenv('BOT_PWD')
-
+BOT_MASTER = os.getenv('BOT_MASTER')
 ########## ------- ##########
 
 IMG_TYPE_PNG = "image/png"
