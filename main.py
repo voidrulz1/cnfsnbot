@@ -1,3 +1,6 @@
+from dotenv import load_dotenv
+load_dotenv()
+
 from __future__ import unicode_literals
 from keep_alive import keep_alive
 import sys
